@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap");
+
+.app {
+  align-items: center;
+  background-image: url("images/heaven.jpg");
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+body {
+  font-family: "Prompt", sans-serif;
+}
+button {
+  background-color: #caedf6;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  font-weight: 700;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+button:hover {
+  font-size: 14px;
+  padding: 7px;
+  transition: 0.2s;
+}
+
+.card {
+  background-color: black;
+  border-radius: 15px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  height: 45%;
+  width: 45%;
+  padding: 25px;
+  text-align: center;
+}
+.city {
+  background: #477da6;
+  border-radius: 15px;
+  padding: 4px;
+  text-align: center;
+}
+
+.date {
+  background: #477da6;
+  border-radius: 15px;
+  padding: 4px;
+  text-align: center;
+}
+.description {
+  align-items: center;
+  background: #1868ac;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 65%;
+}
+.icon {
+  width: 10%;
+}
+li {
+  list-style: none;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+.location-info {
+  background: #a3d2f5;
+  border-radius: 25px;
+  color: #fff;
+  display: flex;
+  height: 15%;
+  justify-content: space-around;
+}
+
+.location-info li {
+  width: 50%;
+}
+.min,
+.max {
+  color: #fff;
+  width: 25%;
+}
+
+.min {
+  align-items: left;
+}
+span {
+  font-size: 10px;
+}
+.temp {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  height: 70%;
+}
+.temp-range {
+  align-items: center;
+  background: #e57586;
+  border-radius: 15px;
+  height: 10%;
+  justify-content: space-evenly;
+  display: flex;
+}
+.temp-range li {
+  width: auto;
+}
+.temp-range img {
+  height: 40px;
+  margin-top: 5px;
+}
